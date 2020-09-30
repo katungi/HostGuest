@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
+import Home from './Home'
 
 function App() {
   return (
     <div className="app">
-      <h1>HostGuest 🚀 </h1>
-
      {/* Home */}
+     <Home/> 
            {/* Header */}
            {/* Banner */}
               {/* Search */}
