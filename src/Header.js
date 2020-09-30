@@ -9,7 +9,13 @@ function Header() {
         src="https://hostguest.co.ke/wp-content/uploads/2018/12/hostguest-logo-2-300x87.png"
         alt="HostGuest"
         
+        
       />
+      <div className="header__center">
+          <input type="text">
+            <SearchIcon/>
+            
+      </div>
     </div>
   );
 }
