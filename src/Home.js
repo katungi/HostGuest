@@ -24,31 +24,26 @@ function Home() {
           description="Comfortable private places, with room for friends or family."
         />
       </div>
-      <div className="home__section">
-        <Card
-          src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
-          title="3 Bedroom Kilimani Experience"
-          description="Superhost with a stunning view of the beachside in Sunny Bournemouth"
-          price="KSH 6500/night"
-        />
-        <Card
-          src="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
-          title="Penthouse in Nairobi CBD"
-          description="Enjoy the amazing sights of London with this stunning penthouse"
-          price="KSH 5000/night"
-        />
-        <Card
-          src="https://media.nomadicmatt.com/2018/apartment.jpg"
-          title="1 Bedroom apartment"
-          description="Superhost with great amenities and a fabolous shopping complex nearby"
-          price="KSH 2000/night"
-        />
-      </div>
-      <div className="home__section">
-          <Card/>
-          <Card/>
-          <Card/>
-      </div>
+      <div className='home__section'>
+            <Card
+                src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
+                title="3 Bedroom Flat in Machakos"
+                description="Superhost with a stunning view of the beachside in Sunny Bournemouth"
+                price="KSH 13000/night"
+            />
+            <Card
+                src="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
+                title="Penthouse in Nakuru"
+                description="Enjoy the amazing sights of London with this stunning penthouse"
+                price="KSH 35000/night"
+            />
+            <Card
+                src="https://media.nomadicmatt.com/2018/apartment.jpg"
+                title="1 Bedroom apartment"
+                description="Superhost with great amenities and a fabolous shopping complex nearby"
+                price="KSH 7000/night"
+            />
+            </div>
     </div>
   );
 }
