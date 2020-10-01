@@ -16,7 +16,6 @@ function SearchResult({
     <div className="searchResult">
       <img src={img} alt="" />
       <FavoriteBorderIcon className="searchResult__heart" />
-
       <div className="searchResult__info">
         <div className="searchResult__infoTop">
           <p>{location}</p>
