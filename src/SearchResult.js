@@ -25,7 +25,7 @@ function SearchResult({
           <p>{description}</p>
         </div>
         <div className="searchResult__infoBottom">
-          <div className="searchResult__stard">
+          <div className="searchResult__stars">
             <StarIcon className="searchResult__star" />
             <p>
               <strong>{star}</strong>
